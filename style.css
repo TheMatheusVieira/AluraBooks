@@ -2,16 +2,17 @@
 
 :root {
   --bg-color: #ffffff;
-  --button-color: #326589;
-  --text-title-color: #fc6621;
-  --text-description-color: #fc6621;
-  --text-price-color: #002f52;
+  --button-color:rgb(35, 36, 37);
+  --text-title-color: #858585;
+  --text-description-color: #ffffff;
+  --text-price-color: #ffffff;
   --text-author-color: #858585;
   --text-tag-color: #9c9c9c;
 }
 
 body {
   font-family: 'Poppins';
+  background-color: black;
 }
 
 .wrap {
@@ -22,8 +23,11 @@ body {
 .header {
   text-align: center;
   width: 100%;
-  background-color: var(--bg-color);
-  margin: 15px 15px;
+  background-color: black;
+  margin: 30px 15px;
+  font-size: 30px;
+  color: white;
+  font-weight: semibold;
 }
 
 .banner {
@@ -47,13 +51,14 @@ body {
   cursor: pointer;
   height: 44px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   padding: 10px 16px;
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 0.9rem;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
+  opacity: 50%;
 }
 
 .btn:hover {
